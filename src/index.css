@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .btns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    
+    border: none;
+    border: 0.6px solid #cccccc;
+    border-radius: 5px ;
+    color: #323232;
+    cursor: pointer;
+    background-color: rgb(202, 182, 204);
+  }
+  .btns:hover
+  {
+   box-shadow:5px 5px 20px 10px rgba(19, 103, 133, 0.5);
+  }
+  @media (max-width:600px) {
+    .btns
+    {
+      background-color: teal;
+    } 
+  }

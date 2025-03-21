@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 4;
+    margin-left: 2rem;
+    margin-bottom: 5px;
+    margin-top: 50px;
+  }
+  
+  input {
+    padding: 12px 20px;
+    border: none;
+    background: #f7f6f6;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 14rem;
+
+    z-index: 1;
+  }
+  input:hover
+  {
+  box-shadow:5px 5px 20px 10px rgba(19, 103, 133, 0.5);
+  }
+
+  @media (max-width:600px)
+  {
+    nav 
+    {
+      position: fixed;
+      top:0;
+      padding-left: 120px;
+    }
+  
+  }

@@ -1,0 +1,19 @@
+.price-title {
+    margin-top: 10px;
+  }
+  
+  .ml {
+    margin-left: 20px;
+  }
+  @media (max-width:500px) {
+    .price-title  {
+      margin-top:1px;
+      margin-bottom: 1px;
+      font-size: 20px;
+    }
+    .m1
+    {
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
+  }

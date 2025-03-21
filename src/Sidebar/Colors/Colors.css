@@ -1,0 +1,12 @@
+.color-title {
+    margin-top: 2rem;
+  }
+  @media (max-width:500px) {
+    .m1 {
+      padding-top: 1px;
+      padding-bottom: 1px;
+    }
+    .color-title{
+      margin-top:1px;
+    }
+  }
